@@ -1,4 +1,4 @@
-/* global stylesheet */
+/* global style sheet */
 
 /* Set whole site box sizing rules */
 html {
@@ -11,6 +11,7 @@ html {
 
 /* ------- Landing Page Styles ------- */
 body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -34,7 +35,7 @@ body {
 
 .header-logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     color: white;
 }
 
