@@ -1,1 +1,53 @@
 /* global stylesheet */
+
+/* Set whole site box sizing rules */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* ------- Landing Page Styles ------- */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.constrain {
+    /* adds width constraint to sections and horizontally centers on page */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ------- Header Section ------- */
+.header {
+    background-color: #1F2937;
+    padding: 18px 0;
+}
+
+.header .constrain {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav {
+    margin-left: auto; /* push nav links to the right side of the page */
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
