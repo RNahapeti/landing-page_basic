@@ -165,3 +165,41 @@ nav {
     border: 3px solid #3882F6;
     border-radius: 18px;
 }
+
+/* ------- Quote Section ------- */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 800px;
+
+    & p {
+        align-self: flex-start;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 36px;
+        margin: 0 0 15px;
+        color: #1F2937;
+    }
+}
+
+cite {
+    align-self: flex-end;
+    margin-left: auto;
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    margin-right: 2rem;
+}
+
+cite:before {
+    content: "—";
+}
