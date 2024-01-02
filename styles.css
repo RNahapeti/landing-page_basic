@@ -30,6 +30,11 @@ h2 {
     color: #1F2937;
 }
 
+h3 {
+    font-size: 22px;
+    color: #F9FAF8;
+}
+
 p {
     font-size: 18px;
 }
@@ -202,4 +207,45 @@ cite {
 
 cite:before {
     content: "—";
+}
+
+/* ------- CTA Section ------- */
+.cta-section {
+    display: flex;
+    background-color: #F9FAF8;
+    padding: 90px 0;
+}
+
+.cta-card {
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex: 0 1 1070px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 15px;
+}
+
+.cta-content {
+    display: flex;
+    flex: 0 1 800px;
+    justify-content: space-between;
+    align-items: center;
+
+    & h3, & p {
+        margin: 0;
+    }
+
+    & p {
+        color: #E5E7EB;
+    }
+}
+
+.button.btn-inverse {
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+}
+
+.button.btn-inverse:hover {
+    border: 2px solid #F9FAF8;
+    margin-left: 0;
 }
