@@ -214,7 +214,7 @@ cite:before {
 .cta-section {
     display: flex;
     background-color: #F9FAF8;
-    padding: 90px 0;
+    padding: 90px 15px;
 }
 
 .cta-card {
